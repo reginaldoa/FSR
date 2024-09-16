@@ -261,7 +261,7 @@
 
         /* Banner Principal */
         .main-banner {
-            background-image: url('img/mainbanner.png');
+            background-image: url('foto_preta.png');
             background-size: cover;
             background-position: center;
             padding: 10em 0;
@@ -269,6 +269,7 @@
             color: #FFF;
             text-align: center;
         }
+
 
         .main-banner::before {
             content: '';
@@ -281,6 +282,8 @@
             z-index: 1;
         }
 
+
+        
         .main-banner h1, .main-banner p {
             position: relative;
             z-index: 2;
@@ -385,6 +388,44 @@
                 margin-bottom: 20px;
             }
         }
+
+
+
+
+        footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer img {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 15px; /* Espaçamento entre os ícones */
+    font-size: 40px; /* Tamanho dos ícones */
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #25d366; /* Cor para WhatsApp ao passar o mouse */
+}
+
+.social-icons a:nth-child(2):hover {
+    color: #E1306C; /* Cor para Instagram ao passar o mouse */
+}
     </style>
 
 </head>
@@ -392,7 +433,12 @@
 
 <body>
 
-
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#"><img class="logo" src="" alt=""></a>
+        <ul class="navbar-items">
+            </div>
 
         <!-- Modal de Contato (inicialmente oculto) -->
         <div id="modal" class="modal">
@@ -413,6 +459,7 @@
         
         <main>
             <div class="main-banner">
+              <!--   <img src="foto_preta.png" alt=""> </p>-->
                 <h1>FSR Analitycs</h1>
                <!-- <p>Nos modelamos para você.</p>-->
             </div>
@@ -562,27 +609,49 @@
                 <h2>Sobre nós</h2>
                 <h3>Conheça um pouco sobre a FSR Analitycs.</h3>
                 
-                <p>
+                <p style="text-align: justify;">
                     A FSR Analytics é uma empresa nova no mercado, especializada em análise de dados. Com três anos de experiência, a empresa está em busca de novos clientes e oportunidades para expandir seus serviços.
-                    
+                </p>
+                
+                <p style="text-align: justify;">
                     Nossa missão é fornecer soluções de análise de dados de alta qualidade e orientadas para resultados para ajudar nossos clientes a tomar decisões informadas e impulsionar o crescimento de seus negócios.
-                    
+                </p>
+                
+                <p style="text-align: justify;">
                     A jornada da FSR Analytics começou em um escritório de advocacia, onde a equipe se conheceu. Na época, eram colegas de equipe e compartilhavam o interesse pela análise de dados. Logo perceberam o potencial de sua parceria e decidiram unir forças para atender e desenvolver uma carteira de clientes.
-                    
+                </p>
+                
+                <p style="text-align: justify;">
                     Desde então, temos orgulho em ter construído uma reputação de confiança e excelência em nosso campo, trabalhando de perto com nossos clientes para entender suas necessidades e oferecer soluções personalizadas que impulsionam resultados tangíveis.
-                    
+                </p>
+                
+                <p style="text-align: justify;">
                     Na FSR Analytics, valorizamos a inovação, a integridade e o compromisso com a excelência. Estamos constantemente buscando maneiras de aprimorar nossos serviços e superar as expectativas de nossos clientes.
-                    
+                </p>
+                
+                <p style="text-align: justify;">
                     Estamos ansiosos para continuar nossa jornada e expandir nosso alcance, ajudando mais empresas a transformar dados em insights valiosos e acionáveis.
-                    </p>
-                </section>
+                </p>
+            </section>
         </main>
+
         <footer>
-            
-            <img height="200" width="200" src="img/logo.png" alt="Logo">
+            <img height="200" width="200" src="foto_preta.png" alt="Logo">
             <p>FSR Analitycs@2024</p>
-            
+        
+            <div class="social-icons">
+                <!-- Ícone do WhatsApp -->
+                <a href="https://wa.me/5511913269356?text=Olá,%20estou%20vindo%20através%20do%20site%20e%20gostaria%20de%20conversar" target="_blank" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+        
+                <!-- Ícone do Instagram -->
+                <a href="https://www.instagram.com/rs.alves_" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
         </footer>
+
     </div>
 </body>
 
